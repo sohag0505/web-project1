@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    color: black;
+}
+
+.name-highlight {
+    color: orange;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.single-ex {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+
+#Miu-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#Smc-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.text-style {
+    color: aqua;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 120px;
+}
+
+.card {
+    border: none;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px #262626;
+}
+
+.card-img-top1 {
+    width: 270px;
+    height: 25opx;
+}
+
+.container h1 {
+    color: rgb(38, 32, 32);
+}
+
+.last .row {
+    color: white;
+    padding: 30px 10px;
+    margin: 30px;
+}
+
+.last .row .col-md-6 ul {
+    list-style: none;
+}
+
+.last footer {
+    font-size: 20px;
+    color: white;
+}
+
+.submit-area {
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.status {
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.deposit {
+    background-color: slateblue;
+}
+
+.withdraw {
+    background-color: lightsalmon;
+}
+
+.balance {
+    background-color: orange;
+}
